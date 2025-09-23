@@ -1,0 +1,44 @@
+.header{
+    background-color: black;
+    color: white;
+    padding: 5px;text-align: center;
+}
+ul,li{
+    display: inline;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.product{
+    padding: 30px;
+    text-align: center;
+}
+.box{
+    width: 20%;
+    border: black 2px solid;
+    display: inline-block;
+    padding: 5px;
+}
+.box:hover{
+    background-color: black;
+    color:white;
+}
+.box img{
+    width: 230px;
+    height: 300px;
+}
+.contact{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+table{
+    color: white;
+}
+    
