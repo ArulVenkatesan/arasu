@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>booksky</title>
+    <link rel="stylesheet" href="C:\Users\Admin\Desktop\github\arasu\booksky.css">
+    <meta name="viewport" content="width=device-width" ,initial-scale="1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <h1>BOOKSKY</h1>
+    </div>
+    <div class="container">
+        <div class="book">
+            <h2>RICH DAD POOR DAD</h2>
+            <h5>RABERT</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aspernatur in commodi quas iusto qui, voluptatibus neque tempora distinctio? Quia iste soluta exercitationem nostrum amet doloribus architecto, assumenda corporis ea.</p>
+            <button class="Close" onclick="deletebook(event)">Close</button>
+        </div>
+    </div>
+    <button class="addpopup">+</button>  
+    <div class="overlay"></div>
+    <div class="popupbox">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Title" id="booktitle">
+            <input type="text" placeholder="Author" id="bookauthor">
+            <textarea placeholder="description" id="bookdescription"></textarea>
+            <button class="addbook">Add</button>
+            <button class="cancelbook">Cancel</button>
+        </form>
+    </div>
+    <script src="C:\Users\Admin\Desktop\github\arasu\booksky.js"></script>
+</body>
+
+</html>
