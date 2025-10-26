@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.landing{
+    background: url('C:/Users/Admin/Downloads/spicy.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+header{
+    display: flex;
+    color: yellow;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+#logo{
+    font-size: 2.5em;
+    flex: 3;
+    min-width: 240px;
+}
+nav{
+    flex: 2;
+    display: flex; 
+    font-size: 1.5em;
+    min-width: 240px;
+}
+nav a{
+    flex: 1;
+    margin-top: 5px;
+}
+nav a:hover{
+    color: aquamarine;
+}
+header a{
+    text-decoration: none;
+    color: yellow;
+    text-transform: capitalize;
+}
+header a i{
+    margin: 2px;
+}
+.taglines{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    margin-top: 12vh;
+    margin-left: 5vh;
+    text-transform: capitalize;
+}
+.taglines div{
+    margin-top: 10px;
+}
+.tag1{
+    color: red;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tag2{
+    color: yellow;
+    font-size: 1.8em;
+}
+.tag3{
+    font-size: 1.2em;
+}
+.taglines button{
+    width: 40vh;
+    padding: 10px;
+    background-color: aquamarine;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+#menuheading{
+    color: red;
+    background-color: black;
+    opacity: 0.8;
+    font-size: 2.5em;
+    text-align: center;
+}
+.menu{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    padding: 10px;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.menu td{
+    margin: 5px;
+    font-size: 1.2em;
+}
+.menu td:nth-child(1){
+ flex: 1;
+ justify-self: left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.menu th{
+   color: aquamarine;
+   font-size: 1.5em;
+}
+table{
+    width: 100%;
+}
+#locheading{
+    color: red;
+    font-size: 2.5em;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    text-transform: capitalize;
+}
+.location{
+    background-color: black;
+    opacity: 0.8;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+}
+.location h3{
+    color: aquamarine;
+    margin: 10px;
+}
+.location div{
+    min-width: 250px;
+    padding: 5px;
+    text-align: center;
+    flex-grow: 1;
+    margin: 5px;
+    font-size: 1.2em;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+ .footer button{
+    width: 40px;
+    background-color: white;
+    border-radius: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border: none;
+    margin: 5px;
+ } 
